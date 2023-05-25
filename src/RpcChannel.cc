@@ -2,10 +2,11 @@
 #include "RpcHeader.pb.h"
 #include "RpcChannel.h"
 #include "RpcConfig.h"
+#include "ZkClient.h"
 
 #include <arpa/inet.h>
 #include <assert.h>
-
+#include <iostream>
 #include <string>
 
 void RpcChannel::CallMethod(const google::protobuf::MethodDescriptor* method, 
@@ -44,12 +45,20 @@ void RpcChannel::CallMethod(const google::protobuf::MethodDescriptor* method,
 
     RpcConfig config_ = RpcApplication::instance().GetRpcConfig();
 
+    ZkClient zkclien_;
+    zkclien_.Start();
+    std::string methodPath = "/" + serviceName + "/" + methodName;
+    std::string host = zkclien_.GetData(methodPath.c_str());
+    int index = host.find(":");
+    int port = atoi(host.substr(index + 1, host.size() - index).c_str());
+    std::string ip = host.substr(0, index);
+
     int clientFd = socket(AF_INET, SOCK_STREAM, 0);
     sockaddr_in addr;
     bzero(&addr, sizeof(addr));
     addr.sin_family = AF_INET;
-    addr.sin_port = htons(atoi(config_.Load("rpcserverport").c_str()));
-    inet_pton(AF_INET, config_.Load("rpcserverip").c_str(), &addr.sin_addr);
+    addr.sin_port = htons(port);
+    inet_pton(AF_INET, ip.c_str(), &addr.sin_addr);
 
     int ret = ::connect(clientFd, (sockaddr *)&addr, sizeof(addr));
     assert(ret != -1);

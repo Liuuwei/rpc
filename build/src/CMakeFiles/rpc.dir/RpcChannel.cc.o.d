@@ -304,8 +304,10 @@ src/CMakeFiles/rpc.dir/RpcChannel.cc.o: \
  /usr/include/google/protobuf/extension_set.h /usr/include/c++/11/cassert \
  /home/parallels/video/rpc/include/RpcChannel.h \
  /home/parallels/video/rpc/include/User.pb.h \
- /usr/include/google/protobuf/service.h /usr/include/arpa/inet.h \
- /usr/include/netinet/in.h /usr/include/aarch64-linux-gnu/sys/socket.h \
+ /usr/include/google/protobuf/service.h \
+ /home/parallels/video/rpc/include/ZkClient.h \
+ /usr/local/include/zookeeper/zookeeper.h \
+ /usr/include/aarch64-linux-gnu/sys/socket.h \
  /usr/include/aarch64-linux-gnu/bits/types/struct_iovec.h \
  /usr/include/aarch64-linux-gnu/bits/socket.h \
  /usr/include/aarch64-linux-gnu/bits/socket_type.h \
@@ -315,4 +317,9 @@ src/CMakeFiles/rpc.dir/RpcChannel.cc.o: \
  /usr/include/aarch64-linux-gnu/asm/sockios.h \
  /usr/include/asm-generic/sockios.h \
  /usr/include/aarch64-linux-gnu/bits/types/struct_osockaddr.h \
- /usr/include/aarch64-linux-gnu/bits/in.h
+ /usr/local/include/zookeeper/proto.h \
+ /usr/local/include/zookeeper/zookeeper_version.h \
+ /usr/local/include/zookeeper/recordio.h \
+ /usr/local/include/zookeeper/zookeeper.jute.h /usr/include/semaphore.h \
+ /usr/include/aarch64-linux-gnu/bits/semaphore.h /usr/include/arpa/inet.h \
+ /usr/include/netinet/in.h /usr/include/aarch64-linux-gnu/bits/in.h

@@ -69,10 +69,38 @@ include src/CMakeFiles/rpc.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/CMakeFiles/rpc.dir/flags.make
 
+src/CMakeFiles/rpc.dir/LockQueue.cc.o: src/CMakeFiles/rpc.dir/flags.make
+src/CMakeFiles/rpc.dir/LockQueue.cc.o: ../src/LockQueue.cc
+src/CMakeFiles/rpc.dir/LockQueue.cc.o: src/CMakeFiles/rpc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/video/rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/rpc.dir/LockQueue.cc.o"
+	cd /home/parallels/video/rpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/rpc.dir/LockQueue.cc.o -MF CMakeFiles/rpc.dir/LockQueue.cc.o.d -o CMakeFiles/rpc.dir/LockQueue.cc.o -c /home/parallels/video/rpc/src/LockQueue.cc
+
+src/CMakeFiles/rpc.dir/LockQueue.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rpc.dir/LockQueue.cc.i"
+	cd /home/parallels/video/rpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parallels/video/rpc/src/LockQueue.cc > CMakeFiles/rpc.dir/LockQueue.cc.i
+
+src/CMakeFiles/rpc.dir/LockQueue.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rpc.dir/LockQueue.cc.s"
+	cd /home/parallels/video/rpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parallels/video/rpc/src/LockQueue.cc -o CMakeFiles/rpc.dir/LockQueue.cc.s
+
+src/CMakeFiles/rpc.dir/Logger.cc.o: src/CMakeFiles/rpc.dir/flags.make
+src/CMakeFiles/rpc.dir/Logger.cc.o: ../src/Logger.cc
+src/CMakeFiles/rpc.dir/Logger.cc.o: src/CMakeFiles/rpc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/video/rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/rpc.dir/Logger.cc.o"
+	cd /home/parallels/video/rpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/rpc.dir/Logger.cc.o -MF CMakeFiles/rpc.dir/Logger.cc.o.d -o CMakeFiles/rpc.dir/Logger.cc.o -c /home/parallels/video/rpc/src/Logger.cc
+
+src/CMakeFiles/rpc.dir/Logger.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rpc.dir/Logger.cc.i"
+	cd /home/parallels/video/rpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parallels/video/rpc/src/Logger.cc > CMakeFiles/rpc.dir/Logger.cc.i
+
+src/CMakeFiles/rpc.dir/Logger.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rpc.dir/Logger.cc.s"
+	cd /home/parallels/video/rpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parallels/video/rpc/src/Logger.cc -o CMakeFiles/rpc.dir/Logger.cc.s
+
 src/CMakeFiles/rpc.dir/RpcApplication.cc.o: src/CMakeFiles/rpc.dir/flags.make
 src/CMakeFiles/rpc.dir/RpcApplication.cc.o: ../src/RpcApplication.cc
 src/CMakeFiles/rpc.dir/RpcApplication.cc.o: src/CMakeFiles/rpc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/video/rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/rpc.dir/RpcApplication.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/video/rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/rpc.dir/RpcApplication.cc.o"
 	cd /home/parallels/video/rpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/rpc.dir/RpcApplication.cc.o -MF CMakeFiles/rpc.dir/RpcApplication.cc.o.d -o CMakeFiles/rpc.dir/RpcApplication.cc.o -c /home/parallels/video/rpc/src/RpcApplication.cc
 
 src/CMakeFiles/rpc.dir/RpcApplication.cc.i: cmake_force
@@ -86,7 +114,7 @@ src/CMakeFiles/rpc.dir/RpcApplication.cc.s: cmake_force
 src/CMakeFiles/rpc.dir/RpcChannel.cc.o: src/CMakeFiles/rpc.dir/flags.make
 src/CMakeFiles/rpc.dir/RpcChannel.cc.o: ../src/RpcChannel.cc
 src/CMakeFiles/rpc.dir/RpcChannel.cc.o: src/CMakeFiles/rpc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/video/rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/rpc.dir/RpcChannel.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/video/rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/rpc.dir/RpcChannel.cc.o"
 	cd /home/parallels/video/rpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/rpc.dir/RpcChannel.cc.o -MF CMakeFiles/rpc.dir/RpcChannel.cc.o.d -o CMakeFiles/rpc.dir/RpcChannel.cc.o -c /home/parallels/video/rpc/src/RpcChannel.cc
 
 src/CMakeFiles/rpc.dir/RpcChannel.cc.i: cmake_force
@@ -100,7 +128,7 @@ src/CMakeFiles/rpc.dir/RpcChannel.cc.s: cmake_force
 src/CMakeFiles/rpc.dir/RpcConfig.cc.o: src/CMakeFiles/rpc.dir/flags.make
 src/CMakeFiles/rpc.dir/RpcConfig.cc.o: ../src/RpcConfig.cc
 src/CMakeFiles/rpc.dir/RpcConfig.cc.o: src/CMakeFiles/rpc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/video/rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/rpc.dir/RpcConfig.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/video/rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/rpc.dir/RpcConfig.cc.o"
 	cd /home/parallels/video/rpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/rpc.dir/RpcConfig.cc.o -MF CMakeFiles/rpc.dir/RpcConfig.cc.o.d -o CMakeFiles/rpc.dir/RpcConfig.cc.o -c /home/parallels/video/rpc/src/RpcConfig.cc
 
 src/CMakeFiles/rpc.dir/RpcConfig.cc.i: cmake_force
@@ -114,7 +142,7 @@ src/CMakeFiles/rpc.dir/RpcConfig.cc.s: cmake_force
 src/CMakeFiles/rpc.dir/RpcHeader.pb.cc.o: src/CMakeFiles/rpc.dir/flags.make
 src/CMakeFiles/rpc.dir/RpcHeader.pb.cc.o: ../src/RpcHeader.pb.cc
 src/CMakeFiles/rpc.dir/RpcHeader.pb.cc.o: src/CMakeFiles/rpc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/video/rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/rpc.dir/RpcHeader.pb.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/video/rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/rpc.dir/RpcHeader.pb.cc.o"
 	cd /home/parallels/video/rpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/rpc.dir/RpcHeader.pb.cc.o -MF CMakeFiles/rpc.dir/RpcHeader.pb.cc.o.d -o CMakeFiles/rpc.dir/RpcHeader.pb.cc.o -c /home/parallels/video/rpc/src/RpcHeader.pb.cc
 
 src/CMakeFiles/rpc.dir/RpcHeader.pb.cc.i: cmake_force
@@ -128,7 +156,7 @@ src/CMakeFiles/rpc.dir/RpcHeader.pb.cc.s: cmake_force
 src/CMakeFiles/rpc.dir/RpcProvider.cc.o: src/CMakeFiles/rpc.dir/flags.make
 src/CMakeFiles/rpc.dir/RpcProvider.cc.o: ../src/RpcProvider.cc
 src/CMakeFiles/rpc.dir/RpcProvider.cc.o: src/CMakeFiles/rpc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/video/rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/rpc.dir/RpcProvider.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/video/rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/rpc.dir/RpcProvider.cc.o"
 	cd /home/parallels/video/rpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/rpc.dir/RpcProvider.cc.o -MF CMakeFiles/rpc.dir/RpcProvider.cc.o.d -o CMakeFiles/rpc.dir/RpcProvider.cc.o -c /home/parallels/video/rpc/src/RpcProvider.cc
 
 src/CMakeFiles/rpc.dir/RpcProvider.cc.i: cmake_force
@@ -139,25 +167,45 @@ src/CMakeFiles/rpc.dir/RpcProvider.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rpc.dir/RpcProvider.cc.s"
 	cd /home/parallels/video/rpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parallels/video/rpc/src/RpcProvider.cc -o CMakeFiles/rpc.dir/RpcProvider.cc.s
 
+src/CMakeFiles/rpc.dir/ZkClient.cc.o: src/CMakeFiles/rpc.dir/flags.make
+src/CMakeFiles/rpc.dir/ZkClient.cc.o: ../src/ZkClient.cc
+src/CMakeFiles/rpc.dir/ZkClient.cc.o: src/CMakeFiles/rpc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/parallels/video/rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/rpc.dir/ZkClient.cc.o"
+	cd /home/parallels/video/rpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/rpc.dir/ZkClient.cc.o -MF CMakeFiles/rpc.dir/ZkClient.cc.o.d -o CMakeFiles/rpc.dir/ZkClient.cc.o -c /home/parallels/video/rpc/src/ZkClient.cc
+
+src/CMakeFiles/rpc.dir/ZkClient.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rpc.dir/ZkClient.cc.i"
+	cd /home/parallels/video/rpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/parallels/video/rpc/src/ZkClient.cc > CMakeFiles/rpc.dir/ZkClient.cc.i
+
+src/CMakeFiles/rpc.dir/ZkClient.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rpc.dir/ZkClient.cc.s"
+	cd /home/parallels/video/rpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/parallels/video/rpc/src/ZkClient.cc -o CMakeFiles/rpc.dir/ZkClient.cc.s
+
 # Object files for target rpc
 rpc_OBJECTS = \
+"CMakeFiles/rpc.dir/LockQueue.cc.o" \
+"CMakeFiles/rpc.dir/Logger.cc.o" \
 "CMakeFiles/rpc.dir/RpcApplication.cc.o" \
 "CMakeFiles/rpc.dir/RpcChannel.cc.o" \
 "CMakeFiles/rpc.dir/RpcConfig.cc.o" \
 "CMakeFiles/rpc.dir/RpcHeader.pb.cc.o" \
-"CMakeFiles/rpc.dir/RpcProvider.cc.o"
+"CMakeFiles/rpc.dir/RpcProvider.cc.o" \
+"CMakeFiles/rpc.dir/ZkClient.cc.o"
 
 # External object files for target rpc
 rpc_EXTERNAL_OBJECTS =
 
+../lib/librpc.a: src/CMakeFiles/rpc.dir/LockQueue.cc.o
+../lib/librpc.a: src/CMakeFiles/rpc.dir/Logger.cc.o
 ../lib/librpc.a: src/CMakeFiles/rpc.dir/RpcApplication.cc.o
 ../lib/librpc.a: src/CMakeFiles/rpc.dir/RpcChannel.cc.o
 ../lib/librpc.a: src/CMakeFiles/rpc.dir/RpcConfig.cc.o
 ../lib/librpc.a: src/CMakeFiles/rpc.dir/RpcHeader.pb.cc.o
 ../lib/librpc.a: src/CMakeFiles/rpc.dir/RpcProvider.cc.o
+../lib/librpc.a: src/CMakeFiles/rpc.dir/ZkClient.cc.o
 ../lib/librpc.a: src/CMakeFiles/rpc.dir/build.make
 ../lib/librpc.a: src/CMakeFiles/rpc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/parallels/video/rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library ../../lib/librpc.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/parallels/video/rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX static library ../../lib/librpc.a"
 	cd /home/parallels/video/rpc/build/src && $(CMAKE_COMMAND) -P CMakeFiles/rpc.dir/cmake_clean_target.cmake
 	cd /home/parallels/video/rpc/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rpc.dir/link.txt --verbose=$(VERBOSE)
 

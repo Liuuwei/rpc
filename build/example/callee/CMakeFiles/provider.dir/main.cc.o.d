@@ -307,6 +307,7 @@ example/callee/CMakeFiles/provider.dir/main.cc.o: \
  /home/parallels/video/rpc/include/Friend.pb.h \
  /home/parallels/video/rpc/include/RpcProvider.h \
  /home/parallels/video/rpc/include/User.pb.h \
+ /home/parallels/video/rpc/include/Friend.pb.h \
  /usr/include/muduo/net/TcpServer.h /usr/include/muduo/base/Atomic.h \
  /usr/include/muduo/base/noncopyable.h /usr/include/muduo/base/Types.h \
  /usr/include/muduo/net/TcpConnection.h \
@@ -375,5 +376,4 @@ example/callee/CMakeFiles/provider.dir/main.cc.o: \
  /usr/include/muduo/net/EventLoop.h /usr/include/muduo/base/Mutex.h \
  /usr/include/muduo/base/CurrentThread.h /usr/include/muduo/net/TimerId.h \
  /home/parallels/video/rpc/include/FriendService.h \
- /home/parallels/video/rpc/include/Friend.pb.h \
  /home/parallels/video/rpc/include/UserService.h

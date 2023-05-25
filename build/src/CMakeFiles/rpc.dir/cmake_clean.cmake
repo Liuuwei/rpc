@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
   "../../lib/librpc.a"
   "../../lib/librpc.pdb"
+  "CMakeFiles/rpc.dir/LockQueue.cc.o"
+  "CMakeFiles/rpc.dir/LockQueue.cc.o.d"
+  "CMakeFiles/rpc.dir/Logger.cc.o"
+  "CMakeFiles/rpc.dir/Logger.cc.o.d"
   "CMakeFiles/rpc.dir/RpcApplication.cc.o"
   "CMakeFiles/rpc.dir/RpcApplication.cc.o.d"
   "CMakeFiles/rpc.dir/RpcChannel.cc.o"
@@ -11,6 +15,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/rpc.dir/RpcHeader.pb.cc.o.d"
   "CMakeFiles/rpc.dir/RpcProvider.cc.o"
   "CMakeFiles/rpc.dir/RpcProvider.cc.o.d"
+  "CMakeFiles/rpc.dir/ZkClient.cc.o"
+  "CMakeFiles/rpc.dir/ZkClient.cc.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

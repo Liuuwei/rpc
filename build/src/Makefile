@@ -130,6 +130,54 @@ rpc/fast:
 	cd /home/parallels/video/rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/rpc.dir/build.make src/CMakeFiles/rpc.dir/build
 .PHONY : rpc/fast
 
+LockQueue.o: LockQueue.cc.o
+.PHONY : LockQueue.o
+
+# target to build an object file
+LockQueue.cc.o:
+	cd /home/parallels/video/rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/rpc.dir/build.make src/CMakeFiles/rpc.dir/LockQueue.cc.o
+.PHONY : LockQueue.cc.o
+
+LockQueue.i: LockQueue.cc.i
+.PHONY : LockQueue.i
+
+# target to preprocess a source file
+LockQueue.cc.i:
+	cd /home/parallels/video/rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/rpc.dir/build.make src/CMakeFiles/rpc.dir/LockQueue.cc.i
+.PHONY : LockQueue.cc.i
+
+LockQueue.s: LockQueue.cc.s
+.PHONY : LockQueue.s
+
+# target to generate assembly for a file
+LockQueue.cc.s:
+	cd /home/parallels/video/rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/rpc.dir/build.make src/CMakeFiles/rpc.dir/LockQueue.cc.s
+.PHONY : LockQueue.cc.s
+
+Logger.o: Logger.cc.o
+.PHONY : Logger.o
+
+# target to build an object file
+Logger.cc.o:
+	cd /home/parallels/video/rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/rpc.dir/build.make src/CMakeFiles/rpc.dir/Logger.cc.o
+.PHONY : Logger.cc.o
+
+Logger.i: Logger.cc.i
+.PHONY : Logger.i
+
+# target to preprocess a source file
+Logger.cc.i:
+	cd /home/parallels/video/rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/rpc.dir/build.make src/CMakeFiles/rpc.dir/Logger.cc.i
+.PHONY : Logger.cc.i
+
+Logger.s: Logger.cc.s
+.PHONY : Logger.s
+
+# target to generate assembly for a file
+Logger.cc.s:
+	cd /home/parallels/video/rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/rpc.dir/build.make src/CMakeFiles/rpc.dir/Logger.cc.s
+.PHONY : Logger.cc.s
+
 RpcApplication.o: RpcApplication.cc.o
 .PHONY : RpcApplication.o
 
@@ -250,6 +298,30 @@ RpcProvider.cc.s:
 	cd /home/parallels/video/rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/rpc.dir/build.make src/CMakeFiles/rpc.dir/RpcProvider.cc.s
 .PHONY : RpcProvider.cc.s
 
+ZkClient.o: ZkClient.cc.o
+.PHONY : ZkClient.o
+
+# target to build an object file
+ZkClient.cc.o:
+	cd /home/parallels/video/rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/rpc.dir/build.make src/CMakeFiles/rpc.dir/ZkClient.cc.o
+.PHONY : ZkClient.cc.o
+
+ZkClient.i: ZkClient.cc.i
+.PHONY : ZkClient.i
+
+# target to preprocess a source file
+ZkClient.cc.i:
+	cd /home/parallels/video/rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/rpc.dir/build.make src/CMakeFiles/rpc.dir/ZkClient.cc.i
+.PHONY : ZkClient.cc.i
+
+ZkClient.s: ZkClient.cc.s
+.PHONY : ZkClient.s
+
+# target to generate assembly for a file
+ZkClient.cc.s:
+	cd /home/parallels/video/rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/rpc.dir/build.make src/CMakeFiles/rpc.dir/ZkClient.cc.s
+.PHONY : ZkClient.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -259,6 +331,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... rpc"
+	@echo "... LockQueue.o"
+	@echo "... LockQueue.i"
+	@echo "... LockQueue.s"
+	@echo "... Logger.o"
+	@echo "... Logger.i"
+	@echo "... Logger.s"
 	@echo "... RpcApplication.o"
 	@echo "... RpcApplication.i"
 	@echo "... RpcApplication.s"
@@ -274,6 +352,9 @@ help:
 	@echo "... RpcProvider.o"
 	@echo "... RpcProvider.i"
 	@echo "... RpcProvider.s"
+	@echo "... ZkClient.o"
+	@echo "... ZkClient.i"
+	@echo "... ZkClient.s"
 .PHONY : help
 
 

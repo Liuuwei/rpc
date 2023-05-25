@@ -306,4 +306,9 @@ example/caller/CMakeFiles/consumer.dir/CallerUser.cc.o: \
  /usr/include/google/protobuf/extension_set.h /usr/include/c++/11/cassert \
  /usr/include/google/protobuf/service.h \
  /home/parallels/video/rpc/include/User.pb.h \
- /home/parallels/video/rpc/include/Friend.pb.h
+ /home/parallels/video/rpc/include/Friend.pb.h \
+ /home/parallels/video/rpc/include/Logger.h \
+ /home/parallels/video/rpc/include/LockQueue.h /usr/include/c++/11/queue \
+ /usr/include/c++/11/deque /usr/include/c++/11/bits/stl_deque.h \
+ /usr/include/c++/11/bits/deque.tcc /usr/include/c++/11/bits/stl_queue.h \
+ /usr/include/c++/11/condition_variable

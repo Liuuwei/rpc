@@ -1,6 +1,7 @@
 #pragma once
 
 #include "User.pb.h"
+#include "Friend.pb.h"
 
 #include <unordered_map>
 #include <string>

@@ -733,6 +733,7 @@ example/callee/CMakeFiles/provider.dir/UserService.cc.o: ../example/callee/UserS
   ../include/RpcApplication.h \
   ../include/RpcConfig.h \
   ../include/RpcProvider.h \
+  ../include/Friend.pb.h \
   /usr/include/muduo/net/TcpServer.h \
   /usr/include/muduo/base/Atomic.h \
   /usr/include/muduo/base/noncopyable.h \
@@ -1914,6 +1915,7 @@ example/callee/CMakeFiles/provider.dir/main.cc.o: ../example/callee/main.cc \
   ../include/Friend.pb.h \
   ../include/RpcProvider.h \
   ../include/User.pb.h \
+  ../include/Friend.pb.h \
   /usr/include/muduo/net/TcpServer.h \
   /usr/include/muduo/base/Atomic.h \
   /usr/include/muduo/base/noncopyable.h \
@@ -1995,7 +1997,6 @@ example/callee/CMakeFiles/provider.dir/main.cc.o: ../example/callee/main.cc \
   /usr/include/muduo/base/CurrentThread.h \
   /usr/include/muduo/net/TimerId.h \
   ../include/FriendService.h \
-  ../include/Friend.pb.h \
   ../include/UserService.h
 
 

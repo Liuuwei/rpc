@@ -3,6 +3,8 @@
 #include "User.pb.h"
 #include "Friend.pb.h"
 
+#include "Logger.h"
+
 #include <iostream>
 
 int main(int argc, char *argv[]) {
@@ -30,15 +32,15 @@ int main(int argc, char *argv[]) {
     request_.set_name("qiyu");
     request_.set_pwd("qmzh5233");
 
-    // stub.Regis(nullptr, &request_, &response_, nullptr);
+    stub.Regis(nullptr, &request_, &response_, nullptr);
     
-    // if (response.result().errcode() == 0) {
-    //     if (response_.success()) {
-    //         std::cout << "regis success " << std::endl;
-    //     } else {
-    //         std::cout << "regis failed" << std::endl;
-    //     }
-    // }
+    if (response.result().errcode() == 0) {
+        if (response_.success()) {
+            std::cout << "regis success " << std::endl;
+        } else {
+            std::cout << "regis failed" << std::endl;
+        }
+    }
 
     fixbug::FriendService_Stub f_stub(new RpcChannel());
     fixbug::GetFriendRequest f_request;
@@ -52,4 +54,6 @@ int main(int argc, char *argv[]) {
         std::cout << "get failed" << std::endl;
     }
 
+    LOG_INFO("INFO");
+    LOG_ERROR("ERROR");
 }

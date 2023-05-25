@@ -306,6 +306,7 @@ example/callee/CMakeFiles/provider.dir/UserService.cc.o: \
  /home/parallels/video/rpc/include/RpcApplication.h \
  /home/parallels/video/rpc/include/RpcConfig.h \
  /home/parallels/video/rpc/include/RpcProvider.h \
+ /home/parallels/video/rpc/include/Friend.pb.h \
  /usr/include/muduo/net/TcpServer.h /usr/include/muduo/base/Atomic.h \
  /usr/include/muduo/base/noncopyable.h /usr/include/muduo/base/Types.h \
  /usr/include/muduo/net/TcpConnection.h \

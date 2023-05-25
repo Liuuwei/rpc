@@ -1,0 +1,20 @@
+# ninja log v5
+0	438	1685022600191872960	src/CMakeFiles/rpc.dir/RpcApplication.cc.o	7c8a8ce7d0d3b589
+0	442	1685022600195872807	src/CMakeFiles/rpc.dir/LockQueue.cc.o	8ff5c3389c292c62
+0	571	1685022600323867917	src/CMakeFiles/rpc.dir/Logger.cc.o	d58373fa6ee0805d
+442	822	1685022600575858290	src/CMakeFiles/rpc.dir/RpcConfig.cc.o	ed21800cd955177e
+438	1610	1685022601351828645	src/CMakeFiles/rpc.dir/RpcChannel.cc.o	210c6e86f2cab135
+571	1776	1685022601527821921	src/CMakeFiles/rpc.dir/RpcHeader.pb.cc.o	7338fa6272bb454a
+1610	1887	1685022601639817642	src/CMakeFiles/rpc.dir/ZkClient.cc.o	3341e85b82d28d0a
+1776	2743	1685022602495784937	example/caller/CMakeFiles/consumer.dir/CallerUser.cc.o	5cd5d7f999b94186
+822	2801	1685022602555782644	src/CMakeFiles/rpc.dir/RpcProvider.cc.o	c2b5ac3029579ba5
+2801	3170	1685022602919768737	../lib/librpc.a	7ba8c3531e225455
+1887	3208	1685022602955767361	example/caller/CMakeFiles/consumer.dir/__/User.pb.cc.o	dec38ef0d55a5347
+2743	3739	1685022603491746880	example/caller/CMakeFiles/consumer.dir/__/Friend.pb.cc.o	acc72d0679dd72f0
+3739	4017	1685022603759736639	../bin/consumer	6928bbef4e6ee497
+3170	4178	1685022603931730067	example/callee/CMakeFiles/provider.dir/main.cc.o	f167d9711392fc4
+3208	4472	1685022604223718908	example/callee/CMakeFiles/provider.dir/__/User.pb.cc.o	4f29546a5a92f432
+4017	4811	1685022604563705915	example/callee/CMakeFiles/provider.dir/__/Friend.pb.cc.o	a3a0cb1bdf85b3e4
+4178	4965	1685022604719699953	example/callee/CMakeFiles/provider.dir/FriendService.cc.o	cd5a8ca8bfbc21ff
+4472	5164	1685022604915692463	example/callee/CMakeFiles/provider.dir/UserService.cc.o	9ad76c998cf25e38
+5164	5338	1685022605087685890	../bin/provider	9ba474b9d9e0c7de

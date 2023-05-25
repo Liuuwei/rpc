@@ -302,6 +302,7 @@ src/CMakeFiles/rpc.dir/RpcProvider.cc.o: \
  /usr/include/google/protobuf/message.h \
  /usr/include/google/protobuf/extension_set.h /usr/include/c++/11/cassert \
  /usr/include/google/protobuf/service.h \
+ /home/parallels/video/rpc/include/Friend.pb.h \
  /usr/include/muduo/net/TcpServer.h /usr/include/muduo/base/Atomic.h \
  /usr/include/muduo/base/noncopyable.h /usr/include/muduo/base/Types.h \
  /usr/include/muduo/net/TcpConnection.h \
@@ -371,4 +372,11 @@ src/CMakeFiles/rpc.dir/RpcProvider.cc.o: \
  /usr/include/muduo/base/CurrentThread.h /usr/include/muduo/net/TimerId.h \
  /home/parallels/video/rpc/include/RpcApplication.h \
  /home/parallels/video/rpc/include/RpcConfig.h \
- /home/parallels/video/rpc/include/RpcHeader.pb.h
+ /home/parallels/video/rpc/include/RpcHeader.pb.h \
+ /home/parallels/video/rpc/include/ZkClient.h \
+ /usr/local/include/zookeeper/zookeeper.h \
+ /usr/local/include/zookeeper/proto.h \
+ /usr/local/include/zookeeper/zookeeper_version.h \
+ /usr/local/include/zookeeper/recordio.h \
+ /usr/local/include/zookeeper/zookeeper.jute.h /usr/include/semaphore.h \
+ /usr/include/aarch64-linux-gnu/bits/semaphore.h

@@ -368,7 +368,15 @@ example/caller/CMakeFiles/consumer.dir/CallerUser.cc.o: ../example/caller/Caller
   /usr/include/c++/11/cassert \
   /usr/include/google/protobuf/service.h \
   ../include/User.pb.h \
-  ../include/Friend.pb.h
+  ../include/Friend.pb.h \
+  ../include/Logger.h \
+  ../include/LockQueue.h \
+  /usr/include/c++/11/queue \
+  /usr/include/c++/11/deque \
+  /usr/include/c++/11/bits/stl_deque.h \
+  /usr/include/c++/11/bits/deque.tcc \
+  /usr/include/c++/11/bits/stl_queue.h \
+  /usr/include/c++/11/condition_variable
 
 example/caller/CMakeFiles/consumer.dir/__/Friend.pb.cc.o: ../example/Friend.pb.cc \
   /usr/include/stdc-predef.h \
@@ -1109,6 +1117,16 @@ example/caller/CMakeFiles/consumer.dir/__/User.pb.cc.o: ../example/User.pb.cc \
 
 ../example/Friend.pb.cc:
 
+/usr/include/c++/11/bits/stl_queue.h:
+
+/usr/include/c++/11/bits/deque.tcc:
+
+/usr/include/c++/11/bits/stl_deque.h:
+
+/usr/include/c++/11/deque:
+
+../include/Logger.h:
+
 /usr/include/google/protobuf/service.h:
 
 /usr/include/google/protobuf/stubs/callback.h:
@@ -1142,6 +1160,8 @@ example/caller/CMakeFiles/consumer.dir/__/User.pb.cc.o: ../example/User.pb.cc \
 /usr/include/c++/11/bits/parse_numbers.h:
 
 /usr/include/c++/11/ctime:
+
+/usr/include/c++/11/condition_variable:
 
 /usr/include/c++/11/ratio:
 
@@ -1188,6 +1208,8 @@ example/caller/CMakeFiles/consumer.dir/__/User.pb.cc.o: ../example/User.pb.cc \
 /usr/include/c++/11/pstl/glue_memory_defs.h:
 
 /usr/include/c++/11/backward/auto_ptr.h:
+
+/usr/include/c++/11/queue:
 
 /usr/include/c++/11/bits/shared_ptr_atomic.h:
 
@@ -1766,6 +1788,8 @@ example/caller/CMakeFiles/consumer.dir/__/User.pb.cc.o: ../example/User.pb.cc \
 /usr/include/aarch64-linux-gnu/sys/select.h:
 
 /usr/include/aarch64-linux-gnu/bits/sigevent-consts.h:
+
+../include/LockQueue.h:
 
 /usr/include/aarch64-linux-gnu/bits/sigaction.h:
 

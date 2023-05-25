@@ -1,6 +1,7 @@
 #include "RpcProvider.h"
 #include "RpcApplication.h"
 #include "RpcHeader.pb.h"
+#include "ZkClient.h"
 
 #include <functional>
 
@@ -33,6 +34,19 @@ void RpcProvider::Run() {
     server.setConnectionCallback(std::bind(&RpcProvider::onConnection, this, _1));
     server.setMessageCallback(std::bind(&RpcProvider::onMessage, this, _1, _2, _3));
     server.setThreadNum(8);
+
+    ZkClient zkclient_;
+    zkclient_.Start();
+    for (auto &sp : serviceInfoMap_) {
+        std::string servicePath = "/" + sp.first; // * /serviceName
+        zkclient_.Create(servicePath.c_str(), nullptr, 0, 0);
+        for (auto &it : sp.second.methodMap) {
+            std::string methodPath = servicePath + "/" + it.first; // * /serviceName/methodName
+            std::string methodValue = ip + ":" + std::to_string(port);
+            zkclient_.Create(methodPath.c_str(), methodValue.c_str(), methodValue.size(), ZOO_EPHEMERAL);
+        }
+    }
+
     server.start();
     loop_.loop();
 }
